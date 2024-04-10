@@ -95,7 +95,7 @@ function EducationDetail() {
                   <font color="blue">Colleage</font> - APRIL 2024
                 </h3>
               </div>
-              <legend class="text-center progress-bar-info panel-footer">Basic Information</legend>
+              <legend class="text-center progress-bar-info">Basic Information</legend>
               <div class="panel-body">
                 {/* <form class="form-horizontal row">  */}
                 <div class="form-horizontal row">
@@ -465,15 +465,18 @@ function EducationDetail() {
                 
 
                   <fieldset>
-                    <legend class="text-center progress-bar-info panel-footer">Academic Qualifications</legend>
+                    <legend class="text-center progress-bar-info ">Academic Qualifications</legend>
+                
                     {/* <!-- ************ Start of SSC and HSC************** --> */}
                     <div class="row">
                       {/* <!-- ************ Start of HSC ************** --> */}
-                      <div class="col-lg-8">
-                        <div class="panel panel-default">
-                          <div class="panel-heading ">
+                      <div class="col-lg-9">
+                        <div class="panel ">
+                          <div class="">
                             <h5 class="panel-title text-center">
+                              <b>
                               HSC or Equivalent Level*
+                              </b>
                             </h5>
                           </div>
                           <div class="panel-body">
@@ -725,7 +728,7 @@ function EducationDetail() {
                             {/* <h5 class="panel-title text-center">
                               Attached Documents
                             </h5> */}
-                            <legend class="text-center progress-bar-info panel-footer"> Attached Documents</legend>
+                            <legend class="text-center progress-bar-info"> Attached Documents</legend>
                           {/* </div> */}
                           <div class="panel-body">
                             <div class="form-group">
